@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -20,17 +21,22 @@
   },
   "homepage": "https://github.com/ConquerTime/some-components#readme",
   "devDependencies": {
+    "@babel/preset-react": "^7.24.7",
     "@storybook/addon-essentials": "^8.2.9",
     "@storybook/addon-interactions": "^8.2.9",
     "@storybook/addon-links": "^8.2.9",
     "@storybook/addon-onboarding": "^8.2.9",
     "@storybook/blocks": "^8.2.9",
+    "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^8.2.9",
     "@storybook/react-vite": "^8.2.9",
     "@storybook/testing-library": "^0.2.2",
+    "@vitejs/plugin-react": "^4.3.1",
+    "babel-plugin-import": "^1.13.8",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "scss": "^0.2.4",
     "storybook": "^8.2.9"
   }
 }

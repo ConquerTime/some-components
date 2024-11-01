@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "some-components",
+        "libraryDirectory": "es",
+        "style": true
+      }
+    ]
+  ]
+}
